@@ -13,7 +13,7 @@
     <p>Built with &hearts; by Alex Jordan.</p>
     <a href="/"> Revenir à la homepage</a>
 <footer>
-    <p>&copy; Copyright {{ date('Y') }} &middot; <a href="/about-us">About Us</a></p>
+    <p>&copy; Copyright {{ date('Y') }} &middot;</p>
 </footer>
 
 
