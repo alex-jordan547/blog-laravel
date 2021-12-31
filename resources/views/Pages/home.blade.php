@@ -1,6 +1,7 @@
 @extends('base')
 
 
+
 @section('content')
         <h1> Salut depuis le quebec</h1>
 

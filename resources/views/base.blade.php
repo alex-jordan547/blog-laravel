@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-    <title>Home | Blog</title>
+    <title>@yield('title','Blog')</title>
 
 
 </head>
