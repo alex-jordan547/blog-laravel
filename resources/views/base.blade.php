@@ -15,7 +15,14 @@
 
 
 <footer>
-    <p>&copy; Copyright {{ date('Y') }} &middot; <a href="{{ route('app_about') }}">About Us</a></p>
+    <p>&copy; Copyright {{ date('Y') }} &middot;
+
+        @if(!\Illuminate\Support\Facades\Route::is('app_about'))
+
+        <a href="{{ route('app_about') }}">About Us</a>
+
+        @endif
+    </p>
 </footer>
 
 
