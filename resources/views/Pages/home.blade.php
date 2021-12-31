@@ -1,10 +1,14 @@
 @extends('base')
 
 
-
 @section('content')
-    <img src="{{ asset('img/cmr.svg') }}" width="310" height="auto">
-        <h1> Salut depuis le quebec</h1>
 
-        <p>It's currently {{ date('H:i A')}} .</p>
+
+
+        <img src="{{ asset('img/cmr.svg') }}" width="500" height="auto" class="rounded shadow">
+        <h1 class="text-secondary"> Hello from Cameroun </h1>
+        <p>It's currently <span class="text-success ">{{ date('H:i A')}}.</span></p>
+
+
+
 @endsection
